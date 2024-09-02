@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe5ae; /* Header background color */
+    color: #333;
+    padding: 20px;
+}
+
+.header-left {
+    display: flex;
+    gap: 15px;
+}
+
+.header-left a {
+    color: #333; /* Text color for nav links */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ffe5ae; /* Nav link background color */
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.header-left a:hover {
+    background-color: #ffe2a3; /* Darker shade for hover effect */
+}
+
+.header-right {
+    text-align: right;
+}
+
+.header-right h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #aef4ff; /* Heading color */
+}
+
+.header-right p {
+    margin: 5px 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #aef4ff; /* Heading color */
+    border-bottom: 2px solid #c0c0c0; /* Grey line color */
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-icon {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project-icon:hover {
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffe5ae; /* Button background color */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffe2a3; /* Button hover effect color */
+}
